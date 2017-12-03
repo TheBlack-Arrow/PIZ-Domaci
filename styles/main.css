@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #deedee;
+}
+
+.Navigation--Bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.Navigation--Bar--Title {
+    width: 100%;
+    height: 75px;
+    background-color: #0e1a2a;
+}
+
+.Title {
+    padding: 17px 0px;
+    color: #e4e4e4;
+    font-size: 24pt;
+    text-align: center;
+}
+
+.Navigation--Bar--Links {
+    width: 100%;
+    height: 50px;
+    background-color: #2c707b;
+}
+
+.Link--1 a {
+    float: left;
+    color: #e4e4e4;
+    text-decoration: none;
+    padding: 16px 4% 16px 4%;
+}
+
+.Link--1 a:hover {
+    text-decoration: underline;
+}
+
+.Divider--Vertical {
+    width: 1px;
+    height: 35px;
+    float: left;
+    background-color: #397d88;
+    margin-top: 8px;
+}
+
+.Link--2 a {
+    float: left;
+    color: #e4e4e4;
+    text-decoration: none;
+    padding: 16px 4% 16px 4%;
+}
+
+.Link--2 a:hover {
+    text-decoration: underline;
+}
+
+.Link--News {
+    float: right;
+    color: #e4e4e4;
+    padding: 16px 4% 16px 0;
+}
+
+.Link--Main {
+    float: right;
+    color: #e4e4e4;
+    padding: 16px 0.5% 16px 4%;
+}
+
+/**************************************************/
+/*****************  CONTENT LEFT  *****************/
+/**************************************************/
+
+.Box {
+    width: 100%;
+    height: 280px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(1, 1, 1, 0.3);
+}
+
+.Content--Box--Left {
+    display: inline-block;
+    width: 65%;
+    height: auto;
+    margin: 145px 20px 20px 20px;
+}
+
+.Left--Box--1--Delete--Button {
+    float: right;
+    margin: -12px;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #fe442d;
+    font-weight: 700;
+    text-align: center;
+
+    border: 2px solid #fe442d;
+}
+
+.Left--Box--1--Delete--Button:hover {
+    background-color: #fe442d;
+    color: white;
+    border: 2px solid white;
+}
+
+.Left--Box--1--Image {
+    float: left;
+    margin: 10px 4.5% 0 4.5%;
+    width: 90%;
+    height: 215px;
+    background-image: url('../images/lines-abstract-1.jpg');
+    background-repeat: no-repeat;
+}
+
+.Left--Box--1--Title {
+    float: left;
+    font-size: 20pt;
+    color: #418fa6;
+    font-weight: 300;
+    margin: 6px 0 0 4.2%;
+}
+
+.Left--Box--1--Stars {
+    float: right;
+    width: 65px;
+    height: 19px;
+    background-image: url('../images/stars 3.png');
+    background-repeat: no-repeat;
+    margin: 12px 5.5% 0 0;
+}
+
+.Left--Box--1--Comment--Button {
+    float: left;
+    width: 130px;
+    height: 33px;
+    border-radius: 15px;
+    background-color: white;
+    color: #2c707b;
+    font-size: 13pt;
+    font-weight: 700;
+    text-align: center;
+
+    margin: 64px 0 0 -210px;
+    padding-top: 12px;
+    box-shadow: 0px 0px 15px rgba(1, 1, 1, 0.3);
+}
+
+.Left--Box--1--Comment--Button:hover {
+    background-color: #2c707b;
+    color: #e4e4e4;
+}
+
+.Box--2 {
+    margin-top: 80px;
+}
+
+.Left--Box--2--Image {
+    float: left;
+    margin: 10px 4.5% 0 4.5%;
+    width: 90%;
+    height: 215px;
+    background-image: url('../images/lines-abstract-2.jpg');
+    background-repeat: no-repeat;
+}
+
+.Left--Box--2--Stars {
+    float: right;
+    width: 87px;
+    height: 19px;
+    background-image: url('../images/stars 4.png');
+    background-repeat: no-repeat;
+    margin: 12px 5.5% 0 0;
+}
+
+/***************************************************/
+/*****************  CONTENT RIGHT  *****************/
+/***************************************************/
+
+.Content--Box--Right {
+    float: right;
+    width: 26.5%;
+    height: auto;
+    margin: 145px 20px 20px 1.5%;
+}
+
+.Add--News--Box {
+    width: 82%;
+    height: 45px;
+    margin: 0 9% 0 12px;
+}
+
+.Add--News--Button {
+    width: 130px;
+    height: 33px;
+    border-radius: 15px;
+    background-color: #2c707b;
+    color: #e4e4e4;
+    font-size: 13pt;
+    font-weight: 700;
+    text-align: center;
+
+    margin: auto;
+    padding-top: 12px;
+    box-shadow: 0px 0px 15px rgba(1, 1, 1, 0.3);
+}
+
+.Add--News--Button:hover {
+    background-color: white;
+    color: #2c707b;
+}
+
+.Right--Box--1 {
+    width: 82%;
+    height: 280px;
+    background-color: white;
+    margin: 25px 9% 5% 12px;
+    box-shadow: 0px 0px 15px rgba(1, 1, 1, 0.3);
+}
+
+.Right--Box--1--Links {
+    width: 100%;
+    height: 31px;
+    background-color: #2c707b;
+    color: #e4e4e4;
+    font-size: 13pt;
+    font-weight: 400;
+    text-align: center;
+
+    padding-top: 10px;
+}
+
+.Right--Box--Link {
+    color: #2c707b;
+    font-size: 13pt;
+    font-weight: 300;
+    margin: 20px 15px;
+}
+
+.Right--Box--Link a {
+    color: #2c707b;
+    text-decoration: none;
+}
+
+.Right--Box--Link:hover {
+    color: #377e8a;
+    text-decoration: underline;
+}
+
+.Right--Box--1--Add--Button {
+    float: right;
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #2c707b;
+    color: #e4e4e4;
+    font-size: 14pt;
+    font-weight: 700;
+    text-align: center;
+
+    margin: 100px 13px 0 0;
+    padding-top: 4px;
+    box-shadow: 0px 0px 15px rgba(1, 1, 1, 0.3);
+}
+
+.Right--Box--1--Add--Button:hover {
+    background-color: white;
+    color: #2c707b;
+}
+
+.Right--Box--2 {
+    width: 82%;
+    height: 280px;
+    background-color: white;
+    margin: 12px 9% 5% 12px;
+    box-shadow: 0px 0px 15px rgba(1, 1, 1, 0.3);
+}
+
+.Right--Box--2--Comments {
+    width: 100%;
+    height: 31px;
+    background-color: #2c707b;
+    color: #e4e4e4;
+    font-size: 13pt;
+    font-weight: 400;
+    text-align: center;
+
+    padding-top: 10px;
+    margin-bottom: 12px;
+}
+
+.Right--Box--Name {
+    display: inline-block;
+    color: #2c707b;
+    font-size: 13pt;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.Right--Box--Comment {
+    display: inline-block;
+    color: #3f8a96;
+    font-size: 13pt;
+    font-weight: 300;
+    margin-left: 15px;
+    padding-top: 3px;
+}
+
+.Divider--Horizontal {
+    width: 90%;
+    height: 1px;
+    background-color: #e4e4e4;
+    margin: 15px 4.8%;
+}
+
+/****************************************************/
+/*****************  CONTENT BOTTOM  *****************/
+/****************************************************/
+
+.Content--Box--Bottom {
+    width: 90%;
+    height: 180px;
+    background-color: white;
+
+    margin: 0 4.6%;
+    box-shadow: 0px 0px 15px rgba(1, 1, 1, 0.3);
+}
+
+.Images--Box {
+    width: 917px;
+    margin: auto;
+}
+
+.Image {
+    display: inline-block;
+    width: 160px;
+    height: 130px;
+    background-repeat: no-repeat;
+    margin: 15px 10px 4px 10px;
+}
+
+.Image:hover {
+    margin: 0 8px 2px 8px;
+    border: 2px solid #2c707b;
+}
+
+.Image--1 {
+    background-image: url('../images/la-1.jpg');
+}
+
+.Image--2 {
+    background-image: url('../images/la-2.jpg');
+}
+
+.Image--3 {
+    background-image: url('../images/la-3.jpg');
+}
+
+.Image--4 {
+    background-image: url('../images/la-4.jpg');
+}
+
+.Image--5 {
+    background-image: url('../images/la-5.jpg');
+}
+
+.PageNumber {
+    display: inline-block;
+    color: #2c707b;
+    font-size: 12pt;
+    font-weight: 400;
+    margin: 0 3px;
+}
+
+.Selected {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.Page--Number--1 {
+    margin-left: 96%;
+}
+
+.Page--Number--1:hover {
+    text-decoration: underline;
+}
+
+.Page--Number--2:hover {
+    text-decoration: underline;
+}
+
+.Copyright {
+    width: 265px;
+    color: #2c707b;
+    font-size: 10pt;
+    font-weight: 400;
+
+    position: fixed;
+    margin: 10px 43% 0 44%;
+}
